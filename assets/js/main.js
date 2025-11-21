@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Add your image paths here
     const images = [
         "assets/img/Housecleaning.png",
-        "assets/img/Housecleaning.png",
+        "assets/img/CREW.png",
         "assets/img/Taski.png"
     ];
 
@@ -37,4 +37,5 @@ document.addEventListener("DOMContentLoaded", () => {
             sliderImage.style.opacity = 1;  // fade-in
         }, 300);
     }, 3000); // 1 second
+
 
