@@ -18,26 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
-/* Keyboard support 
-    // Add your image paths here
-    const images = [
-        "assets/img/Housecleaning.png",
-        "assets/img/CREW.png",
-        "assets/img/Taski.png"
-    ];
 
-    let index = 0;
-    const sliderImage = document.getElementById("slider-image");
-
-    setInterval(() => {
-        index = (index + 1) % images.length;
-        sliderImage.style.opacity = 0;   // fade-out
-        setTimeout(() => {
-            sliderImage.src = images[index];
-            sliderImage.style.opacity = 1;  // fade-in
-        }, 300);
-    }, 3000); // 1 second
-*/
 
 const slidesData = [
     {
@@ -141,6 +122,7 @@ const slidesData = [
 
   updateUI();
   startAutoSlide();
+
 
 
 
