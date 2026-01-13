@@ -32,7 +32,7 @@ const slidesData = [
       link: "taski.html"
     },
     {
-      img: "assets/img/diversey.png",
+      img: "assets/img/Diversey.png",
       name: "Skyspaces Featured Products",
       link: "diversey.html"
     }
@@ -122,6 +122,7 @@ const slidesData = [
 
   updateUI();
   startAutoSlide();
+
 
 
 
