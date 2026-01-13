@@ -29,7 +29,7 @@ const slidesData = [
     {
       img: "assets/img/Taski.png",
       name: "TASKI Machines & Accessories",
-      link: "taski.html"
+      link: "/taski.html"
     },
     {
       img: "assets/img/Diversey.png",
@@ -122,6 +122,7 @@ const slidesData = [
 
   updateUI();
   startAutoSlide();
+
 
 
 
