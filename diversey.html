@@ -644,97 +644,6 @@
     .sticky-btn span.icon {
       font-size: 14px;
     }
-    /* extra code */ 
-    .carousel{
-  width: 100%;
-  max-width: 1100px;
-  margin: 0 auto;
-  position: relative;
-  user-select: none;
-}
-
-.viewport{
-  display: block;
-  overflow: hidden;
-  border-radius: 16px;
-  background: #fff;
-  box-shadow: 0 10px 30px rgba(0,0,0,.10);
-  text-decoration: none;
-}
-
-.track{
-  display: flex;
-  transform: translateX(0);
-  transition: transform 0.55s ease;
-}
-
-.slide{
-  min-width: 100%;
-  height: 420px;              /* change height here */
-  position: relative;
-  background: #f3f4f6;
-}
-
-.slide img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
-/* arrows */
-.nav{
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 44px;
-  height: 44px;
-  border: 0;
-  border-radius: 999px;
-  background: rgba(0,0,0,0.45);
-  color: #fff;
-  font-size: 22px;
-  cursor: pointer;
-  z-index: 5;
-  display: grid;
-  place-items: center;
-}
-.nav:hover{ background: rgba(0,0,0,0.65); }
-.prev{ left: 12px; }
-.next{ right: 12px; }
-
-/* caption bar */
-.caption{
-  display: block;
-  margin-top: 10px;
-  padding: 12px 14px;
-  border-radius: 12px;
-  background: #0f172a;
-  color: #fff;
-  text-decoration: none;
-  font-weight: 600;
-  box-shadow: 0 6px 18px rgba(0,0,0,.10);
-}
-.caption:hover{ opacity: 0.95; }
-
-/* dots */
-.dots{
-  display: flex;
-  gap: 8px;
-  justify-content: center;
-  margin-top: 10px;
-}
-.dot{
-  width: 10px; height: 10px;
-  border-radius: 50%;
-  background: #cbd5e1;
-  cursor: pointer;
-}
-.dot.active{ background: #334155; }
-
-@media (max-width: 768px){
-  .slide{ height: 260px; }
-}
 
   </style>
 </head>
@@ -1300,6 +1209,7 @@
 </script>
 </body>
 </html>
+
 
 
 
