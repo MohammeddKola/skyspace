@@ -41,12 +41,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
 const slidesData = [
     {
-      img: "assets/IMG/Housecleaning.png",
+      img: "assets/img/Housecleaning.png",
       name: "House Cleaning Essentials",
       link: "housecleaning.html"
     },
     {
-      img: "assets/IMG/Taski.png",
+      img: "assets/img/Taski.png",
       name: "TASKI Machines & Accessories",
       link: "taski.html"
     },
@@ -141,5 +141,6 @@ const slidesData = [
 
   updateUI();
   startAutoSlide();
+
 
 
