@@ -106,12 +106,32 @@
           <div class="col-lg-5 text-center">
 
     <!-- Image Slider Container -->
-          <div id="slider-container" style="width:100%; overflow:hidden;">
+         /* <div id="slider-container" style="width:100%; overflow:hidden;">
         <img id="slider-image" src="assets/img/Skyspaces.png"
              
              alt="Product Image" 
              style="width:100%; transition: opacity 0.5s;">
-          </div>
+          </div> */
+
+            <div class="carousel" id="carousel">
+  <button class="nav prev" type="button" aria-label="Previous slide">❮</button>
+  <button class="nav next" type="button" aria-label="Next slide">❯</button>
+
+  <a class="viewport" id="slideLink" href="products.html">
+    <div class="track" id="track">
+      <!-- Slides inserted by JS -->
+    </div>
+  </a>
+
+  <!-- Name bar (clickable too) -->
+  <a class="caption" id="captionLink" href="products.html">
+    <span id="captionText">Loading...</span>
+  </a>
+
+  <!-- Optional dots -->
+  <div class="dots" id="dots"></div>
+</div>
+
 
           </div>
           </div>
@@ -600,5 +620,6 @@
   <script src="assets/js/main.js"></script>
 </body>
 </html>
+
 
 
