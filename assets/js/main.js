@@ -24,7 +24,7 @@ const slidesData = [
     {
       img: "assets/img/Housecleaning.png",
       name: "House Cleaning Essentials",
-      link: "housecleaning.html"
+      link: "kitchen-care.html"
     },
     {
       img: "assets/img/Taski.png",
@@ -122,6 +122,7 @@ const slidesData = [
 
   updateUI();
   startAutoSlide();
+
 
 
 
