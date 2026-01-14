@@ -506,18 +506,22 @@
   .items.center{
     grid-template-columns:repeat(3, minmax(0, 1fr));
   }
+ .items.lert{
+    grid-template-columns:repeat(2, minmax(0, 1fr));
+  }
 
   /* responsive for categories */
   @media (max-width:860px){
     .items{ grid-template-columns:repeat(3, minmax(0, 1fr)); }
     .items.center{ grid-template-columns:repeat(2, minmax(0, 1fr)); }
+    .items.lert{ grid-template-columns:repeat(1, minmax(0, 1fr)); }
   }
   @media (max-width:640px){
     .items{ grid-template-columns:repeat(2, minmax(0, 1fr)); }
     .thumb{ width:98px; height:98px; }
   }
   @media (max-width:420px){
-    .items, .items.center{ grid-template-columns:1fr; }
+    .items, .items.center,.item.lert{ grid-template-columns:1fr; }
     .category{ padding:26px 14px 14px; }
   }
 
@@ -745,6 +749,21 @@
   </section>
 
   <!-- ================= CATEGORIES ================= -->
+  <!-- TWO CATEGORIES IN ONE ROW -->
+
+
+  <div class="category-row">
+  <section class="category">
+    <div class="category-title">MANUAL DISH WASH</div>
+    <div class="items lert" id="cat5"></div>
+  </section>
+
+  <section class="category">
+    <div class="category-title">ALL PURPOSE CLEANER</div>
+    <div class="items" id="cat6"></div>
+  </section>
+</div>
+    
   <div id="categories" class="section-head">
     <h2>Kitchen Care Categories</h2>
     <p>Tap any product to open its details page.</p>
@@ -909,6 +928,14 @@
       { name: "Suma San", img: "assets/img/suma-san.png", link: "suma-san.html" },
       { name: "Suma Star Plus", img: "assets/img/suma-star-plus.png", link: "suma-star-plus.html" },
       { name: "Dispenser", img: "assets/img/dispenser.png", link: "dispenser.html" }
+    ],
+    cat5: [
+      { name: "Suma Extra", img: "assets/img/suma-extra.png", link: "suma-extra.html" },
+      { name: "Suma Multi", img: "assets/img/suma-multi.png", link: "suma-multi.html" }
+    ],
+    cat6: [
+      { name: "Suma Extra", img: "assets/img/suma-extra.png", link: "suma-extra.html" },
+      { name: "Suma Multi", img: "assets/img/suma-multi.png", link: "suma-multi.html" }
     ]
   };
 
@@ -941,6 +968,8 @@
   renderCategory("cat2", data.cat2);
   renderCategory("cat3", data.cat3);
   renderCategory("cat4", data.cat4);
+  renderCategory("cat5", data.cat5);
+  renderCategory("cat6", data.cat6);
 </script>
 </body>
 </html>
