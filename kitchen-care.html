@@ -635,6 +635,26 @@
       font-size: 14px;
     }
 
+        /* ROW THAT HOLDS BOTH CATEGORIES */
+.category-row{
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap:28px;
+  margin-top:24px;
+}
+
+/* Make each category not stretch too tall */
+.category{
+  align-self:stretch;
+}
+
+/* Responsive: stack on mobile */
+@media (max-width: 900px){
+  .category-row{
+    grid-template-columns: 1fr;
+  }
+}
+
 </style>
 </head>
 
