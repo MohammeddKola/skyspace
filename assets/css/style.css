@@ -387,7 +387,7 @@ ul {
   margin-top: 10px;
   padding: 12px 14px;
   border-radius: 12px;
-  background: #0f172a;
+  background: #031633;
   color: #fff;
   text-decoration: none;
   font-weight: 600;
@@ -413,6 +413,7 @@ ul {
 @media (max-width: 768px){
   .slide{ height: 260px; }
 }
+
 
 
 
