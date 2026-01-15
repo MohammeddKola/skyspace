@@ -15,7 +15,7 @@ body {
 
 /* Top Bar */
 .top-bar {
-    background: radial-gradient(circle at top left, rgba(255, 255, 255, 0.1), transparent 50%), radial-gradient(circle at bottom right, rgba(255, 255, 255, 0.08), transparent 55%), linear-gradient(135deg, var(--primary-dark), #031633);
+    background: radial-gradient(circle at top left, rgba(255, 255, 255, 0.1), transparent 50%), radial-gradient(circle at bottom right, rgba(255, 255, 255, 0.08), transparent 55%), linear-gradient(135deg, var(--primary-dark), #02fdf4);
 }
 
 .top-bar a {
@@ -59,7 +59,7 @@ body {
   background:
     radial-gradient(circle at top left, rgba(255, 255, 255, 0.1), transparent 50%),
     radial-gradient(circle at bottom right, rgba(255, 255, 255, 0.08), transparent 55%),
-    linear-gradient(135deg, var(--primary-dark), #031633);
+    linear-gradient(135deg, var(--primary-dark), #02fdf4);
   overflow: hidden;
 }
 
@@ -413,6 +413,7 @@ ul {
 @media (max-width: 768px){
   .slide{ height: 260px; }
 }
+
 
 
 
