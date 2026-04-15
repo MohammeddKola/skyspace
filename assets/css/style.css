@@ -434,7 +434,44 @@ ul {
   .slide{ height: 260px; }
 }
 
+/* Dropdown container */
+.dropdown {
+  position: relative;
+}
 
+/* Dropdown menu */
+.dropdown-menu {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background: #fff;
+  list-style: none;
+  padding: 10px 0;
+  min-width: 180px;
+  display: none;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+/* Dropdown items */
+.dropdown-menu li {
+  padding: 10px 20px;
+}
+
+.dropdown-menu li a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+}
+
+.dropdown-menu li:hover {
+  background: #f2f2f2;
+}
+
+/* Show on hover */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
 
 
 
